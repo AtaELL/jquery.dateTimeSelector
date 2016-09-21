@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Examples using jquery.dateTimeSelector</title> 
+	
+	<style>
+		* {padding:0;margin:0;}
+		div {margin:10px 10px 40px 10px;}
+		p {padding:8px 0;}
+		span {display:block;color:#666;font-style:italic;}
+	</style>
+</head>
+<body>
+	<div>
+		<h2>1. DateTime format 'Y-m-d H:i:s'</h2>
+		<p>
+			<input type="text" id="example1" name="example1" />
+		</p>
+		<span>Result: ---------- --:--:--</span>
+	</div>
+	<div>
+		<h2>2. Date format 'd/m/Y'</h2>
+		<p>
+			<input type="text" id="example2" name="example2" />
+		</p>
+		<span>Result: --/--/----</span>
+	</div>
+	<div>
+		<h2>3. Time format 'H:i:s'</h2>
+		<p>
+			<input type="text" id="example3" name="example3" />
+		</p>
+		<span>Result: --:--:--</span>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="../dist/jquery.datetimeselector.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#example1").dateTimeSelector({yearValue:''});
+			$("#example2").dateTimeSelector({format:'d/m/Y',yearValue:''});
+			$("#example3").dateTimeSelector({format:'H:i:s'});
+			
+			$(document).on("change", "select", function(){
+				var el = $(this).parents("div");
+				var val = el.children("p").children("input").val();
+				el.children("span").html("Result: " + val);
+			});
+		});
+		
+	</script>
+</body>
+</html> 
