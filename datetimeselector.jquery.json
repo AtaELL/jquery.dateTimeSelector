@@ -1,0 +1,43 @@
+{
+    "name" : "datetimeselector",
+    "title" : "jQuery DateTime Selector",
+    "description" : "jQuery DateTimeSelector plugin. Change datetime input through select box.",
+    "keywords" : [
+        "form",
+        "datetime",
+		"select",
+		"input",
+		"datepicker",
+		"timepicker",
+		"datetimeselector"
+    ],
+    "version" : "0.1",
+    "author" : [
+		{
+			"name" : "Valery Koretsky",
+			"email" : "valery.koretsky@gmail.com",
+			"url" : "http://valerykoretsky.com/"
+		}
+	],	
+    "maintainers" : [
+        {
+			"name" : "Valery Koretsky",
+			"email" : "valery.koretsky@gmail.com",
+			"url" : "http://valerykoretsky.com/"
+		}
+    ],
+    "licenses" : [
+        {
+            "type" : "MIT",
+            "url" : "https://github.com/AtaELL/jquery.dateTimeSelector/blob/master/LICENSE"
+        }
+    ],
+    "bugs" : "https://github.com/AtaELL/jquery.dateTimeSelector",
+    "homepage" : "http://valerykoretsky.com/blog/programming/jquery-datetime-selector/",
+    "docs" : "http://valerykoretsky.com/blog/programming/jquery-datetime-selector/",
+    "demo" : "http://valerykoretsky.com/blog/programming/jquery-datetime-selector/",
+    "download" : "https://github.com/AtaELL/jquery.dateTimeSelector/releases",
+    "dependencies" : {
+        "jquery" : ">=1.9"
+    }
+}

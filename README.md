@@ -18,4 +18,4 @@ $(document).ready(function(){
 Demo and full documentation on russian can be found at [here](http://valerykoretsky.com/blog/programming/jquery-datetime-selector/).
 
 ### License
-[MIT License](https://opensource.org/licenses/mit-license.php)
+[MIT License](https://github.com/AtaELL/jquery.dateTimeSelector/blob/master/LICENSE)

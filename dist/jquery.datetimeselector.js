@@ -1,5 +1,5 @@
 /**
- * jQuery DataTimeSelector Plugin
+ * jQuery DateTimeSelector Plugin
  * Version: 0.1
  * Update: 09/20/2016
  *
