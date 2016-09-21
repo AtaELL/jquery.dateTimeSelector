@@ -1,5 +1,6 @@
 {
     "name" : "datetimeselector",
+    "version" : "0.1.1",
     "title" : "jQuery DateTime Selector",
     "description" : "jQuery DateTimeSelector plugin. Change datetime input through select box.",
     "keywords" : [
@@ -11,7 +12,7 @@
 		"timepicker",
 		"datetimeselector"
     ],
-    "version" : "0.1.1",
+	"main" : "dist/jquery.datetimeselector.min.js",
     "author" : {
 		"name" : "Valery Koretsky",
 		"email" : "valery.koretsky@gmail.com",
