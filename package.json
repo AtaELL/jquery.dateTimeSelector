@@ -11,7 +11,7 @@
 		"timepicker",
 		"datetimeselector"
     ],
-    "version" : "0.1",
+    "version" : "0.1.1",
     "author" : {
 		"name" : "Valery Koretsky",
 		"email" : "valery.koretsky@gmail.com",
