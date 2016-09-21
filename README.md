@@ -14,7 +14,7 @@ $(document).ready(function(){
 });
 ```
 
-### Demo & Documentation
+### Documentation
 Demo and full documentation on russian can be found at [here](http://valerykoretsky.com/blog/programming/jquery-datetime-selector/).
 
 ### License
