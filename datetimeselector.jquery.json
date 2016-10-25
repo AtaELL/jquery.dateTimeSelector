@@ -32,9 +32,9 @@
         }
     ],
     "bugs" : "https://github.com/AtaELL/jquery.dateTimeSelector/issues",
-    "homepage" : "http://valerykoretsky.com/blog/programming/jquery-datetime-selector/",
-    "docs" : "http://valerykoretsky.com/blog/programming/jquery-datetime-selector/",
-    "demo" : "http://valerykoretsky.com/blog/programming/jquery-datetime-selector/",
+    "homepage" : "http://valerykoretsky.com/blog/jquery-datetime-selector/",
+    "docs" : "http://valerykoretsky.com/blog/jquery-datetime-selector/",
+    "demo" : "http://valerykoretsky.com/blog/jquery-datetime-selector/",
     "download" : "https://github.com/AtaELL/jquery.dateTimeSelector/releases",
     "dependencies" : {
         "jquery" : ">=1.9"
